@@ -18,3 +18,5 @@ This repository contains the CPU and GPU implementation of a Cellular Automaton 
 4) The gen() will return a vector array of parallel numbers.
 
 CPU implementation of the PRNG currently generates 4 numbers at parallel, while the GPU can produce 32,64,128,256,512,1024,2048 numbers at parallel.
+
+Files in the examples directory shows the usage of this PRNG.

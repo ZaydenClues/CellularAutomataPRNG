@@ -13,7 +13,7 @@ This repository contains the CPU and GPU implementation of a Cellular Automaton 
 
 ## Instructions
 1) To use the generator you need to include the header file in your working directory.
-2) You have to instantiate the generator with your (initial_seed, generator_type) for CPU and (initial_seed, number_of_threads, generator_type).
+2) You have to instantiate the generator with your (initial_seed, generator_type) for CPU and (initial_seed, number_of_threads, generator_type) for GPU.
 3) Once instantiated, you can call the gen() using the instantiated object.
 4) The gen() will return a vector array of parallel numbers.
 
